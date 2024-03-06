@@ -1,0 +1,44 @@
+body {
+    background: whitesmoke;
+    margin-top: 20px
+}
+
+div {
+    background: whitesmoke;
+    font-size: 20px;
+    display:flex;
+}
+
+
+ 
+#top-bar #LOGO{
+    
+    background:pink;
+    display:flex;
+    flex-direction: row;
+} 
+  
+#top-bar #Sign-in{
+    display:flex;
+    background:lightblue;
+    flex-direction: row;
+}
+
+.flex {
+    background: yellow;
+    border: 1px solid salmon;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+.menu {
+    display:flex;
+    gap:20px;
+}
+
+  
